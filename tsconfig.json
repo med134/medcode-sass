@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/utils/action.ts",
+    "src/app/components/ServerCard.tsx",
+    "src/app/layout.tsx",
+    "src/app/components/Skills.jsx",
+    "src/app/components/Icons.jsx",
+    "src/app/components/DashboardNav.tsx",
+    "src/app/components/CreateBlog.jsx",
+    "src/app/components/AddNewArticle.jsx",
+    "src/app/dashboard/add-articles/page.tsx",
+    "src/app/components/Experience.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
